@@ -7,7 +7,7 @@ export default function nav() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid mx-lg-5">
           <NavLink className="navbar-brand" to="/">
-            Navbar
+            N-10
           </NavLink>
           <button
             className="navbar-toggler"
