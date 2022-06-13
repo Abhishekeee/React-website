@@ -1,13 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Mulish", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.height {
+  min-height: 85vh;
+}
+.getStarted {
+  margin: 1rem 0;
+  padding: 12px 25px;
+  border-radius: 25px;
+}
+.getStarted:hover {
+  background-color: #0dcaf0;
+  color: white;
+}
+@media (max-width: 767px) {
+  .home-img {
+    width: 80%;
+  }
+}
+
+.home-img {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
