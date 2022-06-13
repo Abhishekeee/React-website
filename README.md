@@ -1,8 +1,6 @@
-#React Website
+# React Website Using React Router v6
 
 Here is the Link of Website Go and Check it out ! - [react-multipage-website.herokuapp.com](https://react-multipage-website.herokuapp.com/)
-
-# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
